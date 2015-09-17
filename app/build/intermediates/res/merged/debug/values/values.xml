@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/D:/Work/Projects/GraphItStudio/app/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- From: file:/D:/Work/Projects/GraphItStudio/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="action_settings">Settings</string>
+    <string name="activity_ad_list_label">Adjacency List</string>
+    <string name="activity_edge_action_choose_buttonDelete">Delete Edge</string>
+    <string name="activity_edge_action_choose_buttonSetCost">Set</string>
+    <string name="activity_edge_action_choose_label">Chose action!</string>
+    <string name="activity_edge_action_choose_textDescribeEditText">Set edge\'s cost</string>
+    <string name="activity_matrix_label">Matrix</string>
+    <string name="activity_start_buttonDraw">Draw Graph!</string>
+    <string name="activity_start_buttonTheory">Graph Theory</string>
+    <string name="activity_start_imageDescription">This is the Background of Start activity</string>
+    <string name="ad_list">Adjacency List</string>
+    <string name="ad_matrix">Adjacency Matrix</string>
+    <string name="app_name">Graph It</string>
+    <string name="breadth">Breadth Search</string>
+    <string name="cost_matrix">Cost Matrix</string>
+    <string name="depth">Depth Search</string>
+    <string name="hello_world">Hello world!</string>
+    <!-- From: file:/D:/Work/Projects/GraphItStudio/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+</resources>

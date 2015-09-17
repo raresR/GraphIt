@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+	
+    <item
+	    android:title = "@string/ad_list"
+	   	android:id = "@+id/activity_draw_menu_item_ad_list"
+	   	android:showAsAction="always"
+	    ></item>
+    
+	<item
+	    android:title = "@string/ad_matrix"
+	   	android:id = "@+id/activity_draw_menu_item_ad_matrix"
+	   	android:showAsAction="always"
+	    ></item>
+	
+	<item
+	    android:title="@string/cost_matrix"
+	    android:id = "@+id/activity_draw_menu_item_cost_matrix"
+	    android:showAsAction="always"
+	    ></item>
+	
+	<item
+	    android:title = "@string/breadth"
+	    android:id = "@+id/activity_draw_menu_item_breadth"
+	   	android:showAsAction="always"
+	    ></item>
+	
+	<item
+	    android:title = "@string/depth"
+	   	android:id = "@+id/activity_draw_menu_item_depth"
+	   	android:showAsAction="always"
+	    ></item>
+	
+</menu>
+<!-- From: file:/D:/Work/Projects/GraphItStudio/app/src/main/res/menu/graph_drawer.xml -->

@@ -1,0 +1,113 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\Work\Projects\GraphItStudio\app\src\main\AndroidManifest.xml:2:1-80:12
+	package
+		ADDED from D:\Work\Projects\GraphItStudio\app\src\main\AndroidManifest.xml:3:5-32
+		INJECTED from D:\Work\Projects\GraphItStudio\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Work\Projects\GraphItStudio\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from D:\Work\Projects\GraphItStudio\app\src\main\AndroidManifest.xml:5:5-30
+	android:versionCode
+		ADDED from D:\Work\Projects\GraphItStudio\app\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from D:\Work\Projects\GraphItStudio\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Work\Projects\GraphItStudio\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\Work\Projects\GraphItStudio\app\src\main\AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from D:\Work\Projects\GraphItStudio\app\src\main\AndroidManifest.xml:7:5-9:41
+	android:targetSdkVersion
+		ADDED from D:\Work\Projects\GraphItStudio\app\src\main\AndroidManifest.xml:9:9-38
+		INJECTED from D:\Work\Projects\GraphItStudio\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Work\Projects\GraphItStudio\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from D:\Work\Projects\GraphItStudio\app\src\main\AndroidManifest.xml:8:9-35
+		INJECTED from D:\Work\Projects\GraphItStudio\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Work\Projects\GraphItStudio\app\src\main\AndroidManifest.xml
+application
+ADDED from D:\Work\Projects\GraphItStudio\app\src\main\AndroidManifest.xml:11:5-78:19
+	android:label
+		ADDED from D:\Work\Projects\GraphItStudio\app\src\main\AndroidManifest.xml:14:9-41
+	android:allowBackup
+		ADDED from D:\Work\Projects\GraphItStudio\app\src\main\AndroidManifest.xml:12:9-35
+	android:icon
+		ADDED from D:\Work\Projects\GraphItStudio\app\src\main\AndroidManifest.xml:13:9-45
+	android:theme
+		ADDED from D:\Work\Projects\GraphItStudio\app\src\main\AndroidManifest.xml:15:9-40
+activity#com.rares.graphit.Start
+ADDED from D:\Work\Projects\GraphItStudio\app\src\main\AndroidManifest.xml:16:9-26:20
+	android:screenOrientation
+		ADDED from D:\Work\Projects\GraphItStudio\app\src\main\AndroidManifest.xml:19:13-49
+	android:label
+		ADDED from D:\Work\Projects\GraphItStudio\app\src\main\AndroidManifest.xml:18:13-45
+	android:name
+		ADDED from D:\Work\Projects\GraphItStudio\app\src\main\AndroidManifest.xml:17:13-51
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from D:\Work\Projects\GraphItStudio\app\src\main\AndroidManifest.xml:21:13-25:29
+action#android.intent.action.MAIN
+ADDED from D:\Work\Projects\GraphItStudio\app\src\main\AndroidManifest.xml:22:17-69
+	android:name
+		ADDED from D:\Work\Projects\GraphItStudio\app\src\main\AndroidManifest.xml:22:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\Work\Projects\GraphItStudio\app\src\main\AndroidManifest.xml:24:17-77
+	android:name
+		ADDED from D:\Work\Projects\GraphItStudio\app\src\main\AndroidManifest.xml:24:27-74
+activity#com.rares.graphit.GraphDrawer
+ADDED from D:\Work\Projects\GraphItStudio\app\src\main\AndroidManifest.xml:28:9-38:20
+	android:screenOrientation
+		ADDED from D:\Work\Projects\GraphItStudio\app\src\main\AndroidManifest.xml:31:13-49
+	android:label
+		ADDED from D:\Work\Projects\GraphItStudio\app\src\main\AndroidManifest.xml:30:13-47
+	android:name
+		ADDED from D:\Work\Projects\GraphItStudio\app\src\main\AndroidManifest.xml:29:13-59
+intent-filter#android.intent.category.DEFAULT+com.rares.GRAPHDRAWER
+ADDED from D:\Work\Projects\GraphItStudio\app\src\main\AndroidManifest.xml:33:13-37:29
+action#com.rares.GRAPHDRAWER
+ADDED from D:\Work\Projects\GraphItStudio\app\src\main\AndroidManifest.xml:34:17-64
+	android:name
+		ADDED from D:\Work\Projects\GraphItStudio\app\src\main\AndroidManifest.xml:34:25-61
+category#android.intent.category.DEFAULT
+ADDED from D:\Work\Projects\GraphItStudio\app\src\main\AndroidManifest.xml:36:17-76
+	android:name
+		ADDED from D:\Work\Projects\GraphItStudio\app\src\main\AndroidManifest.xml:36:27-73
+activity#com.rares.graphit.AdList
+ADDED from D:\Work\Projects\GraphItStudio\app\src\main\AndroidManifest.xml:41:9-51:20
+	android:label
+		ADDED from D:\Work\Projects\GraphItStudio\app\src\main\AndroidManifest.xml:43:13-61
+	android:theme
+		ADDED from D:\Work\Projects\GraphItStudio\app\src\main\AndroidManifest.xml:44:13-56
+	android:name
+		ADDED from D:\Work\Projects\GraphItStudio\app\src\main\AndroidManifest.xml:42:13-54
+intent-filter#android.intent.category.DEFAULT+com.rares.graphit.ADLIST
+ADDED from D:\Work\Projects\GraphItStudio\app\src\main\AndroidManifest.xml:46:13-50:29
+action#com.rares.graphit.ADLIST
+ADDED from D:\Work\Projects\GraphItStudio\app\src\main\AndroidManifest.xml:47:17-67
+	android:name
+		ADDED from D:\Work\Projects\GraphItStudio\app\src\main\AndroidManifest.xml:47:25-64
+activity#com.rares.graphit.AdMatrix
+ADDED from D:\Work\Projects\GraphItStudio\app\src\main\AndroidManifest.xml:54:9-64:20
+	android:label
+		ADDED from D:\Work\Projects\GraphItStudio\app\src\main\AndroidManifest.xml:56:13-60
+	android:theme
+		ADDED from D:\Work\Projects\GraphItStudio\app\src\main\AndroidManifest.xml:57:13-56
+	android:name
+		ADDED from D:\Work\Projects\GraphItStudio\app\src\main\AndroidManifest.xml:55:13-56
+intent-filter#android.intent.category.DEFAULT+com.rares.graphit.ADMATRIX
+ADDED from D:\Work\Projects\GraphItStudio\app\src\main\AndroidManifest.xml:59:13-63:29
+action#com.rares.graphit.ADMATRIX
+ADDED from D:\Work\Projects\GraphItStudio\app\src\main\AndroidManifest.xml:60:17-69
+	android:name
+		ADDED from D:\Work\Projects\GraphItStudio\app\src\main\AndroidManifest.xml:60:25-66
+activity#com.rares.graphit.EdgeActionChoose
+ADDED from D:\Work\Projects\GraphItStudio\app\src\main\AndroidManifest.xml:67:9-77:20
+	android:label
+		ADDED from D:\Work\Projects\GraphItStudio\app\src\main\AndroidManifest.xml:69:13-72
+	android:theme
+		ADDED from D:\Work\Projects\GraphItStudio\app\src\main\AndroidManifest.xml:70:13-56
+	android:name
+		ADDED from D:\Work\Projects\GraphItStudio\app\src\main\AndroidManifest.xml:68:13-64
+intent-filter#android.intent.category.DEFAULT+com.rares.graphit.EDGEACTIONCHOOSE
+ADDED from D:\Work\Projects\GraphItStudio\app\src\main\AndroidManifest.xml:72:13-76:29
+action#com.rares.graphit.EDGEACTIONCHOOSE
+ADDED from D:\Work\Projects\GraphItStudio\app\src\main\AndroidManifest.xml:73:17-77
+	android:name
+		ADDED from D:\Work\Projects\GraphItStudio\app\src\main\AndroidManifest.xml:73:25-74

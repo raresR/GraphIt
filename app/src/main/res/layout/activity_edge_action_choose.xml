@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <TextView
+        android:id="@+id/activity_edge_action_choose_describeEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/activity_edge_action_choose_textDescribeEditText"
+        android:textSize="30sp"
+         >
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/activity_edge_action_choose_editTextSetCost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/activity_edge_action_choose_describeEditText"
+        android:inputType="number" 
+        >
+
+    </EditText>
+    
+    <Button 
+        android:id = "@+id/activity_edge_action_choose_buttonSetCost"
+        
+        android:text="@string/activity_edge_action_choose_buttonSetCost"
+        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/activity_edge_action_choose_editTextSetCost"
+        
+        
+        />
+    
+    <Button
+        android:id = "@+id/activity_edge_action_choose_buttonDelete"
+        
+        android:text="@string/activity_edge_action_choose_buttonDelete"
+        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/activity_edge_action_choose_buttonSetCost"
+        android:layout_alignBottom="@id/activity_edge_action_choose_buttonSetCost"
+        ></Button>
+    
+</RelativeLayout>
